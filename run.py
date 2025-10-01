@@ -19,11 +19,10 @@ amplitude_scaled_wave = amplitude_scale(wave, 2)
 
 added_wave = add_signals(wave, time_shifted_wave)
 
-multiplied_wave = multiply_signals(wave, time_shifted_wave)
+multiplied_wave = multiply_signals(wave, time_scaled_wave)
 
 fig, (ax1, ax2) = plt.subplots(1, 2, sharex=True, sharey=True)
 ax1.plot(wave)
-ax2.plot(multiplied_wave)
+ax2.plot(time_scaled_wave)
 
 plt.show()
-plt.close(all)
