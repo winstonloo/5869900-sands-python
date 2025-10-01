@@ -3,7 +3,7 @@ from scipy import signal
 import matplotlib.pyplot as plt
 
 
-# Frequency f, start s_t, end e_t, amplitude a, sample rate s_t
+# Frequency f, start s_t, end e_t, amplitude a, sample rate s_r
 
 def create_sine_signal(f, s_t, e_t, a, s_r):
     duration = e_t - s_t
