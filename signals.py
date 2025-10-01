@@ -7,13 +7,13 @@ import matplotlib.pyplot as plt
 def create_sine_signal(f, s_t, e_t, a, s_r):
     duration = e_t - s_t
     t = np.linspace(s_t, e_t, int(s_r * duration))
-    return t, a * np.sin(2 * np.pi * f * t)
+    return a * np.sin(2 * np.pi * f * t)
 
 def create_square_signal(f, s_t, e_t, a, s_r):
     duration = e_t - s_t
     t = np.linspace(s_t, e_t, int(s_r * duration))
     sine_wave = np.sin(2 * np.pi * f * t)
-    return t, a * np.sign(sine_wave)
+    return a * np.sign(sine_wave)
 
 def create_sawtooth_signal(f, s_t, e_t, a, s_r):
     duration = e_t - s_t
