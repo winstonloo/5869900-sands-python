@@ -9,7 +9,7 @@ e_t=10
 a = 1
 s_r=100
 
-wave = create_triangle_signal(f, s_t, e_t, a, s_r)
+t,wave = create_triangle_signal(f, s_t, e_t, a, s_r)
 
 time_shifted_wave = time_shift(wave, 2, s_r)
 
@@ -23,6 +23,6 @@ multiplied_wave = multiply_signals(wave, time_scaled_wave)
 
 fig, (ax1, ax2) = plt.subplots(1, 2, sharex=True, sharey=True)
 ax1.plot(wave)
-ax2.plot(time_scaled_wave)
+ax2.plot(multiplied_wave)
 
 plt.show()
