@@ -11,19 +11,19 @@ def time_shift(signal, shift, s_r):
         return np.concatenate((signal[-shift_samples:], np.zeros(-shift_samples)))
     else:
         return signal
+    
 def time_scale(signal, scale):
     indices = np.arange(0, len(signal), scale)
     indices = indices[indices < len(signal)].astype(int)
     return signal[indices]
+
 def amplitude_scale(signal, scale):
     return signal * scale
+
 def add_signals(signal1, signal2):
     length = min(len(signal1), len(signal2))
     return signal1[:length] + signal2[:length] 
+
 def multiply_signals(signal1, signal2):
     length = min(len(signal1), len(signal2))
     return signal1[:length] * signal2[:length]
-def convolve_signals(signal1, signal2):
-    return np.convolve(signal1, signal2, mode='full')
-def correlate_signals(signal1, signal2):
-    return np.correlate(signal1, signal2, mode='full')
