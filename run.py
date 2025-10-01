@@ -1,11 +1,15 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from signals import create_sine_wave
+from signals import *
 
-frequency = 5
-duration = 2
 
-sine_wave = create_sine_wave(frequency, duration)
+f=1
+s_t=0
+e_t=10
+a = 10
+s_r=100
+
+sine_wave = create_sine_signal(f, s_t, e_t, a, s_r)
 
 print("First 10 samples of the sine wave:")
 print(sine_wave[:10])
