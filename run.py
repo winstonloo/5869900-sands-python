@@ -9,7 +9,7 @@ e_t=10
 a = 1
 s_r=100
 
-t,wave = create_triangle_signal(f, s_t, e_t, a, s_r)
+t,wave = create_square_signal(f, s_t, e_t, a, s_r)
 
 time_shifted_wave = time_shift(wave, 2, s_r)
 
