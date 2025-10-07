@@ -43,6 +43,7 @@ def test_create_sawtooth_signal():
 
     t,v = create_sawtooth_signal(5, 0, 1, 0, 1000)
     assert np.allclose(v,0)
+
 def test_create_triangle_signal():
     t,v = create_triangle_signal(1, 0, 10, 1, 1000)
     assert len(t) == 10000
@@ -56,6 +57,7 @@ def test_create_triangle_signal():
 
     t,v = create_triangle_signal(5, 0, 1, 0, 1000)
     assert np.allclose(v,0)
+    
 def test_create_unit_step_signal():
     t,v = create_unit_step_signal(0, 10, 1000, 1, 5)
     assert len(t) == 10000
