@@ -19,3 +19,7 @@ A Python package for creating, analyzing, and processing various types of signal
 ### Visualization
 - Side-by-side comparison plots (original vs. modified signals)
 - Matplotlib-based plotting with customizable layouts
+
+### Tests
+Tests verifying whether signals and operations are done properly
+![alt text](tests.png)
