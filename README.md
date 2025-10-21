@@ -22,4 +22,4 @@ A Python package for creating, analyzing, and processing various types of signal
 
 ### Tests
 Tests verifying whether signals and operations are done properly
-![alt text](tests.png)
+![Test Results - All Tests Passing](images/tests.png)
