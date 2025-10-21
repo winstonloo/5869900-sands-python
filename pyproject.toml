@@ -7,4 +7,4 @@ name = "AESB2122_project"
 version = "0.1.0"
 description = "A package for creating, analyzing and processing signals"
 authors = [ {name = "Winston Loo", email = "hbwinstonloo@gmail.com"},]
-dependencies = ["numpy", "scipy", "matplotlib, pandas"]
+dependencies = ["numpy", "scipy", "matplotlib", "pandas"]
