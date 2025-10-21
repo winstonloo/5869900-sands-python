@@ -1,14 +1,21 @@
-This repository includes files to create signals, modify signals and plot signals.
+# Signal Processing Package
 
-The signals available are:
-Sine, Square, triangular, sawtooth and unit step.
+A Python package for creating, analyzing, and processing various types of signals with comprehensive signal operations and visualization capabilities.
 
-Modifications possible to original signals:
-Time shift, time scale, amplitude scale, added wave, multiplied wave
+### Signal Generation
+- Sine waves - Standard sinusoidal signals
+- Square waves - Binary amplitude signals with sharp transitions
+- Triangle waves - Linear rising/falling signals
+- Sawtooth waves - Linear ramp signals with sharp resets
+- Unit step signals - Heaviside step functions
 
-the plots will be plotted next to eachother with the original on the left and the modified version on the right.
+### Signal Operations
+- Time shifting - Delay or advance signals in time
+- Time scaling - Compress or expand signals temporally
+- Amplitude scaling - Modify signal amplitude by constant factors
+- Signal addition - Element-wise sum of two signals
+- Signal multiplication - Element-wise product of two signals
 
-in the run file, the variables are given.
-
-#Variables
-f = Frequency, s_t = start time,  e_t = end time, a = amplitude, s_t = start_time 
+### Visualization
+- Side-by-side comparison plots (original vs. modified signals)
+- Matplotlib-based plotting with customizable layouts
