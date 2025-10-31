@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+AESB2122_project/hello.py
+AESB2122_project/operations.py
+AESB2122_project/run.py
+AESB2122_project/signals.py
+AESB2122_project/test.py
+AESB2122_project.egg-info/PKG-INFO
+AESB2122_project.egg-info/SOURCES.txt
+AESB2122_project.egg-info/dependency_links.txt
+AESB2122_project.egg-info/requires.txt
+AESB2122_project.egg-info/top_level.txt
