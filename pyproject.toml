@@ -8,3 +8,7 @@ version = "0.1.1"
 description = "A package for creating, analyzing and processing signals"
 authors = [ {name = "Winston Loo", email = "hbwinstonloo@gmail.com"},]
 dependencies = ["numpy", "scipy", "matplotlib", "pandas"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["AESB2122_project*"]
