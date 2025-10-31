@@ -130,7 +130,7 @@ def create_triangle_signal(f, s_t, e_t, a, s_r):
     v = a * signal.sawtooth(2 * np.pi * f * t, 0.5)
     return t,v
 
-def create_unit_step_signal(s_t, e_t, s_r, a,step_time):
+def create_unit_step_signal(s_t, e_t, a, s_r,step_time):
     """
     Create a unit step wave signal.
     
