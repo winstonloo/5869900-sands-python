@@ -1,6 +1,6 @@
 # Signal Processing Package
-
 A Python package for creating, analyzing, and processing various types of signals with comprehensive signal operations and visualization capabilities.
+The toml file contains the necessary information about the project, such as the package name, version, dependencies and instructions on what and how to build it.
 
 ### Signal Generation
 - Sine waves - Standard sinusoidal signals
